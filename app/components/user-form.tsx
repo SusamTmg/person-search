@@ -68,10 +68,10 @@ export function UserForm({ form }: FormComponentProps) {
           <FormItem>
             <FormLabel>Phone Number</FormLabel>
             <FormControl>
-              <Input placeholder="123-456-7890" {...field} />
+              <Input placeholder="40XXXXXXX" {...field} />
             </FormControl>
             <FormDescription>
-              Enter phone number in Australian phone number format.
+              Enter phone number in Australian phone number format..
             </FormDescription>
             {fieldState.error && (
                             <p className="text-red-600 text-sm mt-1">
